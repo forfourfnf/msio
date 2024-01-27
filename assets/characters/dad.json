@@ -2,122 +2,58 @@
 	"animations": [
 		{
 			"offsets": [
-				-9,
-				10
+				-70,
+				-140
 			],
-			"loop": false,
-			"anim": "singLEFT",
+			"indices": [],
 			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				-30
-			],
-			"loop": false,
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Dad Sing Note DOWN",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": false,
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				27
-			],
-			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Dad idle dance",
-			"indices": []
+			"loop": false,
+			"name": "no"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-70,
+				-140
 			],
-			"loop": true,
+			"indices": [],
 			"fps": 24,
-			"anim": "idle-loop",
-			"indices": [
-				10,
-				11,
-				12,
-				12
-			],
-			"name": "Dad idle dance"
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "no"
 		},
 		{
 			"offsets": [
-				-9,
-				10
+				-70,
+				-140
 			],
-			"loop": true,
+			"indices": [],
 			"fps": 24,
-			"anim": "singLEFT-loop",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			],
-			"name": "Dad Sing Note LEFT"
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "no"
 		},
 		{
 			"offsets": [
-				0,
-				27
+				-70,
+				-140
 			],
-			"loop": true,
+			"indices": [],
 			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
+			"anim": "singUP",
+			"loop": false,
+			"name": "no"
 		},
 		{
 			"offsets": [
-				-6,
-				50
+				-70,
+				-140
 			],
-			"loop": true,
+			"indices": [],
 			"fps": 24,
-			"anim": "singUP-loop",
-			"indices": [
-				56,
-				57,
-				58,
-				59
-			],
-			"name": "Dad Sing Note UP"
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "no"
 		}
 	],
 	"no_antialiasing": false,
@@ -129,14 +65,14 @@
 	"healthicon": "dad",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
-		102,
-		206
-	],
-	"camera_position": [
 		0,
+		255,
 		0
 	],
+	"camera_position": [
+		-30,
+		60
+	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 1.3
 }
